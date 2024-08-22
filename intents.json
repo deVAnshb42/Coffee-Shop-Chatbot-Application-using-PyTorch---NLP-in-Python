@@ -1,0 +1,160 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "hii",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "delivery charges",
+      "patterns": ["delivery charges?", "what are the delivery charges?", "do you charge on delivery?"],
+      "responses": [
+        "delivery charges are based on your cart value",
+        "you get free delivery over 200rs of purchasing"
+
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "tea",
+      "patterns": [
+        "Which tea",
+        "What kind of tea",
+        "i want tea",
+        "i want to order tea"
+
+      ],
+      "responses": [
+        "We sell\nWhite tea. Rs-50\nGreen tea. Rs-40\nYellow tea. Rs-60\nMilk tea. Rs-50\nOolong tea. Rs-80\nBlack tea. Rs-30\nDark tea (or post-fermented tea Rs-50\nwhich one do you prefer?)",
+        "We have\nWhite tea. Rs-50\nGreen tea. Rs-40\nYellow tea. Rs-60\nOolong tea. Rs-50\nMilk tea. Rs-80\nBlack tea. Rs-30\nDark tea (or post-fermented tea Rs-50\nwhich one do you prefer?)"
+      ]
+    },
+    {
+      "tag": "coffee",
+      "patterns": ["coffee", "which coffee", "what kind of coffee?","i want coffee",
+        "i want to order coffee"],
+      "responses": [
+        "we sell\nEspresso. Rs-70\nLatte/Iced Latte. Rs-80\nCappuccino. Rs-50\nAmericano. Rs-50\nMocha. Rs-70\nBlack Coffee. Rs-40\nCold Brew. Rs-40\nwhich one do you prefer?",
+        "we have\nEspresso. Rs-70\nLatte/Iced Latte. Rs-80\nCappuccino. Rs-50\nAmericano. Rs-50\nMocha. Rs-70\nBlack Coffee. Rs-40\nCold Brew. Rs-40\nwhich one do you prefer?"
+      ]
+    },
+    {
+      "tag": "target",
+      "patterns": [
+        "Espresso",
+        "i want Espresso",
+        "Latte/Iced Latte",
+        "i want Latte/Iced Latte",
+        "Cappuccino",
+        "i want Cappuccino",
+        "Americano",
+        "i want Americano",
+        "Mocha",
+        "i want Mocha",
+        "Black Coffee",
+        "i want Black Coffee",
+        "Cold Brew",
+        "i want Cold Brew",
+        "White tea",
+        "i want white tea",
+        "Green tea",
+        "i want green tea",
+        "Yellow tea",
+        "i want yellow tea",
+        "Milk tea",
+        "i want milk tea",
+        "Oolong tea",
+        "i want oolong tea",
+        "Black tea",
+        "i want black tea",
+        "Dark tea",
+        "i want dark tea"
+      ],
+      "responses": [
+        "it seems like you want to order this item,please call on 94692***** this number to order",
+        "thank for showing interest, please call 94692***** this number to order your item"
+      ]
+    },
+
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept cards?",
+        "Can I GooglePay?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept Cards, GooglePay and Cash",
+        "We accept most major credit cards, and Online payments like GooglePay"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?",
+        "do you guys deliver?",
+        "delivery",
+        "delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+
+      "responses": [
+        "Why was six afraid of seven? Because seven eight nine.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "I failed math so many times at school, I cant even count.",
+        "Interviewer: What is a skeleton?\nSanta: Sir, skeleton is a person who started dieting,\nbut forgot to stop it!!"
+      ]
+    }
+  ]
+}
